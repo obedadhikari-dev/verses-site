@@ -10,14 +10,20 @@
     <main>
       <section class="name-section">
         <div class="content-name">
-          <span class="user-greeting" style="display: inline-block">
-            Good morning, Friend! </span
-          ><br />
-          <p class="user-feeling">How are you feeling?</p>
-          <label for="input-name" class="user-label">Enter your name</label>
-          <br />
-          <input type="text" id="input-name" />
-          <button class="display-verse">get verse</button>
+          <div class="greet">
+            <span class="user-greeting" style="display: inline-block">
+              Good morning, Friend! </span
+            ><br />
+            <p class="user-feeling">How are you feeling?</p>
+          </div>
+          <div class="user-input">
+            <input
+              type="text"
+              id="input-name"
+              placeholder="Enter your name..."
+            />
+            <button class="display-verse">get verse</button>
+          </div>
         </div>
       </section>
       <section class="verse-section">
